@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.btn{
+  display : inline-block;
+  width: 120px;
+  height: 80px;
+  border: 1px dotted lightcoral;
+  background-color: plum;
+  border-radius: 14px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,7 +24,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #3f45ffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
