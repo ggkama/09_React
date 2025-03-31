@@ -31,7 +31,7 @@ const Foods = () => {
         */
         
 
-       axios.get(`http://localhost/busans?pageNo=${pageNo}`)
+       axios.get(`http://localhost/spring/busans?pageNo=${pageNo}`)
        .then(result => {
         // console.log("결과잘나옴?");
         // console.log(result);
